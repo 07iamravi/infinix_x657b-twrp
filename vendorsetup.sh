@@ -1,1 +1,1 @@
-alias twrppick='repopick -g https://gerrit.twrp.me'
+add_lunch_combo twrp_x657b-eng
