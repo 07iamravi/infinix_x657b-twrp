@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2021 The Android Open Source Project
-# Copyright (C) 2021 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2021 SebaUbuntu's omni device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,11 +9,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := x657B
-PRODUCT_NAME := twrp_x657B
+PRODUCT_NAME := omni_x657B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := x657B
 PRODUCT_MANUFACTURER := infinix
