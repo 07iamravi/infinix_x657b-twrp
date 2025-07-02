@@ -1,1 +1,1 @@
-add_lunch_combo twrp_x657b-eng
+add_lunch_combo omni_x657b-eng
